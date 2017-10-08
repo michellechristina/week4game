@@ -1,0 +1,35 @@
+directions --
+
+1. The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
+Here's how the app works:
+
+2. There will be four crystals displayed as buttons on the page.
+The player will be shown a random number at the start of the game.
+
+3. When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+
+4. Your game will hide this amount until the player clicks a crystal.
+When they do click one, update the player's score counter.
+
+5. The player wins if their total score matches the random number from the beginning of the game.
+The player loses if their score goes above the random number.
+
+6. The game restarts whenever the player wins or loses.
+
+7. When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+
+8. The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+//
+
+PSEUDO
+
+4 crystal images, each assigned random number value between 1-12 at the beginning of the game
+a random goal number between 19-120 is displayed at the beginning of the game. 
+players number scoreboard is set to 0 at beginning of game
+game wins and losses counters are both set to 0 at beginning of game.
+
+when a crystal is clicked, the number value is added to the player's scoreboard.
+
+if players scoreboard value equals goal number value, then player wins (alert win msg). Win counter is updated by 1 and game restarts.
+if players scoreboard value is greater than goal number value, then player looses (alert lose msg). Loss counter is updated by 1 and game restarts.
